@@ -15,39 +15,177 @@ h1,h2{
 
 h3{
     font-family: 'Alegreya SC', serif;
-}   
-.contenitor{
-    display: grid;
-    place-items: center;
-}
-#immagine{
-    display: block;
-    padding-bottom: 50px;
-}
-#carta,.carta  {
-    width: 100px;
-    height: 100px;
-    background-image: url('image/carta.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-  }
-#sasso,.sasso {
-    width: 100px;
-    height: 100px;
-    background-image: url('image/sasso.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
 }
 
-#forbici, .forbici {
-    width: 100px;
-    height: 100px;
-    background-image: url('image/forbici.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
+@media (max-width: 415px){
+    h1,h2{
+        font-family: 'Stalinist One', cursive;
+        text-align: center;
+    }
+    
+    h3{
+        font-family: 'Alegreya SC', serif;
+    }
+
+    #H1{
+        font-size: 27px;
+        width: 100%;
+        margin: 5px;
+    }
+    #H2{
+        font-size: 20px;
+        margin: 5px;
+    }
+    #immagine{
+        width: 70px;
+        height: 70px;
+    }
+    .contenitor{
+        display: grid;
+        place-items: center;
+    }
+    #immagine{
+        display: block;
+        padding-bottom: 10px;
+    }
+    #carta,.carta  {
+        width: 70px;
+        height: 70px;
+        background-image: url('image/carta.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+      }
+    #sasso,.sasso {
+        width: 70px;
+        height: 70px;
+        background-image: url('image/sasso.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    
+    #forbici, .forbici {
+        width: 70px;
+        height: 70px;
+        background-image: url('image/forbici.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    #H3{
+        margin: 10px;
+    }
+
+    input{
+        width: 100vw;
+        height: 50px;
+    }
+
 }
 
-input{
-    width: 200px;
-    height: 100px;
+@media (min-width: 416px) and (max-width: 1199px){
+    h1,h2{
+        font-family: 'Stalinist One', cursive;
+        text-align: center;
+    }
+    
+    h3{
+        font-family: 'Alegreya SC', serif;
+    }
+
+    #H1{
+        font-size: 50px;
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+    #H2{
+        font-size: 40px;
+        margin: 30px;
+    }
+    #immagine{
+        width: 120px;
+        height: 120px;
+    }
+    .contenitor{
+        display: grid;
+        place-items: center;
+    }
+    #immagine{
+        display: block;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    #carta,.carta  {
+        width: 120px;
+        height: 120px;
+        background-image: url('image/carta.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+      }
+    #sasso,.sasso {
+        width: 120px;
+        height: 120px;
+        background-image: url('image/sasso.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    
+    #forbici, .forbici {
+        width: 120px;
+        height: 120px;
+        background-image: url('image/forbici.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    #H3{
+        font-size: 25px;
+        margin: 25px;
+    }
+
+    input{
+        width: 100vw;
+        height: 50px;
+        font-size: 20px;
+    }
+
+}
+
+@media (min-width: 1200px){
+
+    .contenitor{
+        display: grid;
+        place-items: center;
+    }
+    #immagine{
+        display: block;
+        padding-bottom: 50px;
+    }
+    #carta,.carta  {
+        width: 100px;
+        height: 100px;
+        background-image: url('image/carta.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    #sasso,.sasso {
+        width: 100px;
+        height: 100px;
+        background-image: url('image/sasso.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    #forbici, .forbici {
+        width: 100px;
+        height: 100px;
+        background-image: url('image/forbici.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    input{
+        width: 200px;
+        height: 100px;
+    }
 }
