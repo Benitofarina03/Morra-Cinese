@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@500&family=Nerko+One&family=Stalinist+One&display=swap" rel="stylesheet">
+    <link rel="manifest" href="manifest.json">
 </head>
 <body>
     <div class="contenitor">
@@ -30,5 +31,11 @@
         <h3 id="H3">Partite vinte dal computer: <span id="vittcomputer">0</span></h3>
         <input type="button" value="Inizia una nuova partita👩‍💻" onClick="document.location.reload(true)">
     </div>
+
+    <script type="module">
+        if('serviceWorker' in navigator){
+            navigator.serviceWorker.register("/morra-cinese/sw.js")
+        }
+    </script>
 </body>
 </html>
