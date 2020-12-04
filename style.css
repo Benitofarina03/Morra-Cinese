@@ -108,6 +108,7 @@ h3{
     
     h3{
         font-family: 'Alegreya SC', serif;
+        font-size: 200px;
     }
 
     #H1{
@@ -139,6 +140,9 @@ h3{
         background-image: url('image/carta.jpg');
         background-repeat: no-repeat;
         background-position: center center;
+        border: 2 ;
+        border-color: #13ecda;
+        outline: 0;
       }
     #sasso,.sasso {
         width: 120px;
@@ -146,6 +150,9 @@ h3{
         background-image: url('image/sasso.jpg');
         background-repeat: no-repeat;
         background-position: center center;
+        border: 2 ;
+        border-color: #13ecda;
+        outline: 0;
     }
     
     #forbici, .forbici {
@@ -154,6 +161,9 @@ h3{
         background-image: url('image/forbici.jpg');
         background-repeat: no-repeat;
         background-position: center center;
+        border: 2 ;
+        border-color: #13ecda;
+        outline: 0;
     }
 
     #H3{
@@ -165,6 +175,12 @@ h3{
         width: 100vw;
         height: 50px;
         font-size: 20px;
+    }
+    #vittcomputer{
+        font-size: 30px;
+    }
+    #vittgiocatore{
+        font-size: 30px;
     }
 
 }
