@@ -5,7 +5,7 @@ body{
     padding: 0;
     display: grid;
     place-items: center;
-    background-color: rgb(92, 43, 43);
+    background-image: linear-gradient(to top right, #7480ee63 0%, #1b73e6ab 50%, #13ecda 100%);
 }
 
 h1,h2{
@@ -25,12 +25,15 @@ h3{
     
     h3{
         font-family: 'Alegreya SC', serif;
+        font-size: 22px;
+
     }
 
     #H1{
-        font-size: 27px;
+        font-size: 25px;
         width: 100%;
         margin: 5px;
+
     }
     #H2{
         font-size: 20px;
@@ -54,6 +57,9 @@ h3{
         background-image: url('image/carta.jpg');
         background-repeat: no-repeat;
         background-position: center center;
+        border: 2 ;
+        border-color: #13ecda;
+        outline: 0;
       }
     #sasso,.sasso {
         width: 70px;
@@ -61,6 +67,9 @@ h3{
         background-image: url('image/sasso.jpg');
         background-repeat: no-repeat;
         background-position: center center;
+        border: 2 ;
+        border-color: #13ecda;
+        outline: 0;
     }
     
     #forbici, .forbici {
@@ -69,6 +78,9 @@ h3{
         background-image: url('image/forbici.jpg');
         background-repeat: no-repeat;
         background-position: center center;
+        border: 2 ;
+        border-color: #13ecda;
+        outline: 0;
     }
 
     #H3{
@@ -78,6 +90,12 @@ h3{
     input{
         width: 100vw;
         height: 50px;
+    }
+    #vittcomputer{
+        font-size: 30px;
+    }
+    #vittgiocatore{
+        font-size: 30px;
     }
 
 }
